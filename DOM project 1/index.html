@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation Example</title>
+  </head>
+  <body>
+    <div id="containerr">Hello, I'm a div!</div>
+
+    <script>
+      const box = document.getElementById("containerr");
+
+      //Method 1
+
+      box.setAttribute(
+        "style",
+        "color:blue;margin:20px;padding:10px;font-size:18px;height:200px;width:300px;font-weight:bold;background-color:yellow"
+      );
+
+      // Method 2
+
+      //   box.style.backgroundColor = "yellow";
+      //   box.style.color = "blue";
+      //   box.style.margin = "20px";
+      //   box.style.padding = "10px";
+      //   box.style.fontSize = "18px";
+      //   box.style.fontWeight = "bold";
+      //   box.style.height = "200px";
+      //   box.style.width = "300px";
+    </script>
+  </body>
+</html>
